@@ -1,0 +1,168 @@
+.projects{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: #CCFE0F;
+    margin: 0 auto;
+    max-width: 1440px;
+    &-title{
+        padding: 100px 120px 0;
+        h1{
+            letter-spacing: 2.8px;
+            margin-bottom: 24px;
+            text-transform: uppercase;
+            font-size: 40px;
+            font-family: $d;
+            font-weight: 700;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+    &-cards{
+        border-top: 0.5px solid #A0A0A0;
+        &__1,&__3{
+            width: 100%;
+            display: flex;
+            padding: 60px 0;
+            border-bottom: 0.5px solid #A0A0A0;
+            &--text{
+                width: 50%;
+                gap: 10px;
+                h1{
+                    font-size: 100px;
+                    font-family: $d;
+                    font-weight: 700;
+                    color: #2727271F;
+                    letter-spacing: 7px;
+                    text-transform: uppercase;
+                    padding-bottom: 10px;
+                }
+                h3{
+                    padding-bottom: 10px;
+                    font-size: 24px;
+                    font-family: $d;
+                    font-weight: 700;
+                    color: #272727;
+                    letter-spacing: 1.68px;
+                    text-transform: uppercase;
+                }
+                p{
+                    font-size: 18px;
+                    width: 534px;
+                    color: #4B4B4B;
+                    line-height: 187.023%;
+                    padding-bottom: 56px;
+                }
+                button{
+                    width: 278px;
+                    height: 58px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    border: 1px solid #272727;
+                    background: transparent;
+                    cursor: pointer;
+                    span{
+                        font-size: 20px;
+                        font-family: $d;
+                        font-weight: 700;
+                        text-transform: uppercase;
+                    }
+                }
+                button:hover{
+                    background: #0057FF;
+                }
+            }
+            &--imgs{
+                width: 50%;
+                width: 475px;
+                display: flex;
+                position: relative;
+                top: 0;
+                right: 0;
+                padding-left: 157px;
+                &1{
+                    position: absolute;
+                    width: 230px;
+                    height: 240px;
+                    background: #A7FF62;
+                    z-index: 1;
+                    bottom: 47px;
+                    left: 57px;
+                }
+            }
+        }
+        &__2{
+            width: 100%;
+            display: flex;
+            padding: 60px 0;
+            border-bottom: 0.5px solid #A0A0A0;
+            &--text{
+                width: 50%;
+                gap: 10px;
+                padding-left: 198px;
+                h1{
+                    font-size: 100px;
+                    font-family: $d;
+                    font-weight: 700;
+                    color: #2727271F;
+                    letter-spacing: 7px;
+                    text-transform: uppercase;
+                    padding-bottom: 10px;
+                }
+                h3{
+                    padding-bottom: 10px;
+                    font-size: 24px;
+                    font-family: $d;
+                    font-weight: 700;
+                    color: #272727;
+                    letter-spacing: 1.68px;
+                    text-transform: uppercase;
+                }
+                p{
+                    font-size: 18px;
+                    width: 534px;
+                    color: #4B4B4B;
+                    line-height: 187.023%;
+                    padding-bottom: 56px;
+                }
+                button{
+                    width: 278px;
+                    height: 58px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    border: 1px solid #272727;
+                    background: transparent;
+                    cursor: pointer;
+                    span{
+                        font-size: 20px;
+                        font-family: $d;
+                        font-weight: 700;
+                        text-transform: uppercase;
+                    }
+                }
+                button:hover{
+                    background: #0057FF;
+                }
+            }
+            &--imgs{
+                width: 50%;
+                width: 475px;
+                display: flex;
+                position: relative;
+                top: 0;
+                left: 0;
+                &1{
+                    position: absolute;
+                    width: 230px;
+                    height: 240px;
+                    background: #A7FF62;
+                    z-index: 1;
+                    bottom: 70px;
+                    right: -93px;
+                }
+            }
+        }
+    }
+}

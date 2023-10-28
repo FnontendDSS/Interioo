@@ -1,0 +1,19 @@
+:root{
+    --i: 'Inter';
+    --d: 'DrukWide';
+}
+
+$i: var(--i);
+$d: var(--d);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: $i;
+    font-weight: 400    ;
+}
+// .container{
+//     // border: 1px solid red;
+//   }

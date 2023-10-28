@@ -1,0 +1,109 @@
+.navbar{
+    max-width: 1440px;
+    margin: 0 auto;
+    width: 100%;
+    min-height: 600px;
+    background: #CCFE0F;
+    display: flex;
+    flex-direction: column;
+    &-nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        &__logo{
+            padding: 37px 120px;
+            width: 150px;
+            cursor: pointer;
+        }
+        &__list{
+            padding: 37px 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            ul{
+                display: flex;
+                flex-direction: row;
+                gap: 45px;
+                a{
+                    font-size: 18px;
+                    color: #4B4B4B;
+                }
+                a:hover{
+                    opacity: 1;
+                    color: #272727;
+                    font-weight: 500;
+                }
+            }
+        }
+        &__btn{
+            padding: 31px 124px 26px 0;
+            display: flex;
+            justify-content: space-between;
+            gap: 40px;
+            &--backet{
+                width: 28px;
+                cursor: pointer;
+            }
+            &--line{
+              width: 52px;
+              cursor: pointer;
+            }
+        }
+    }
+    &-title{
+        width: 1200px;
+        border-top: 0.5px solid #000;
+        margin: 0 120px;
+        display: flex;
+        flex-direction: column;
+        &__img{
+            width: 100%;
+            padding: 42px 0 48px;
+        }
+        h1{
+            width: 1200px;
+            padding: 31px 0 26px 30px;
+            font-family: $d;
+            font-weight: 700;
+            font-size: 56px;
+            color: #272727;
+            border-top: 0.5px solid #272727;
+            border-bottom: 0.5px solid #272727;
+            text-transform: uppercase;
+        }
+    }
+    &-btns{
+        width: 100%;
+        padding: 53px 120px 76px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 40px;
+        &__left{
+            width: 580px;
+            height: 95px;
+            background: #A30AF2;
+            border: none;
+            cursor: pointer;
+            span{
+                color: #ffffff;
+                font-size: 20px;
+                font-family: $d;
+                font-weight: 700;
+            }
+        }
+        &__right{
+            width: 580px;
+            height: 95px;
+            background: #FFFFFF;
+            border: none;
+            cursor: pointer;
+            span{
+                font-size: 20px;
+                font-family: $d;
+                font-weight: 700;
+                color: #272727;
+            }
+        }
+    }
+}
